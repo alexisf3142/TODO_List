@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/indexTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="6dp"
+            android:text="1."
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/nameOfListTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingLeft="6dp"
+            android:text="shopping"
+            android:textSize="20sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/selectButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="2dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:onClick="selectButton1"
+            android:text="Select"
+            android:visibility="gone">
+
+        </Button>
+
+        <Button
+            android:id="@+id/hideButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="2dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:onClick="hideButton1"
+            android:text="hide"
+            android:visibility="gone">
+
+        </Button>
+
+        <Button
+            android:id="@+id/deleteButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="2dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:onClick="deleteButton1"
+            android:text="delete"
+            android:visibility="gone">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/moveToTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="move:"
+            android:visibility="gone">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/positionEditText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="#"
+            android:inputType="number"
+            android:visibility="gone">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/moveButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:onClick="moveButton1"
+            android:text="move"
+            android:visibility="gone">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

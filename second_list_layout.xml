@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/indexTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:paddingHorizontal="8dp"
+            android:text="1."
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/nameOfItemTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:paddingHorizontal="8dp"
+            android:text="milk"
+            android:textSize="20sp"></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/deleteButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:onClick="deleteButton2"
+            android:text="delete"></Button>
+
+        <Button
+            android:id="@+id/hideButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:onClick="hideButton2"
+            android:text="hide"></Button>
+
+        <TextView
+            android:id="@+id/moveToTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="move to position:"></TextView>
+
+        <EditText
+            android:id="@+id/positionEditText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:hint="#"
+            android:inputType="number"></EditText>
+
+        <Button
+            android:id="@+id/moveButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:onClick="moveButton2"
+            android:text="move"></Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
